@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="classes" thread-count="3">
+<listeners>
+	<listener class-name="ExtentReport.Listener"/>
+</listeners>
+	<test name="Test">
+		<classes>
+			<class name="SingleExtentReport.Double_Click" />
+			<class name="SingleExtentReport.Drag_N_Drop" />
+			<class name="SingleExtentReport.Login_Key_Operations" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

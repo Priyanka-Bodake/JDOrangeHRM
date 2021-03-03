@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="JD_Orange_Test.Smoke_TestSuit"/> 
+       <class name="JD_Orange_Test.Double_Click"/>
+        <class name="JD_Orange_Test.Drag_N_Drop"/>
+         <class name="JD_Orange_Test.Login_headless_browser"/>
+          <class name="JD_Orange_Test.MobileBrowserView"/>
+          <class name="JD_Orange_Test.AddUser"/>          
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
